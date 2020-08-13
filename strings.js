@@ -106,7 +106,10 @@ console.log(thirdToLastLetterOfFirstName);
  ***************/
 function wordBlanks(myNoun, myAdj, myVerb, myAdverb) {
     var result = "";
+    result += "The " + myAdj + " " + myNoun + " " + myVerb + " to the store " + myAdverb;
 
     return result;
 }
+
 console.log(wordBlanks("dog", "small", "run", "quickly"));
+console.log(wordBlanks("bike", "fast", "flew", "slowly"));

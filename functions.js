@@ -91,8 +91,47 @@ console.log(changed);
  * Stand in Line *
  *****************/
 function nextInLine(arr, item) {
-    return item;
+    arr.push(item);
+    return arr.shift();
 }
 
 var testArr = [1, 2, 3, 4, 5];
 
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+/******************
+ * Boolean Values *
+ ******************/
+function welcomeToBooleans() {
+    return false;
+}
+
+/********************************************
+ * Use Conditional Logic with If Statements *
+ ********************************************/
+function trueOrFalse(isItTrue) {
+    if (isItTrue) {
+        return "It's True";
+    }
+    return "It's False";
+}
+
+console.log(trueOrFalse(true));
+
+/*****************************************
+ * Comparison with the Equality Operator *
+ *****************************************/
+function testEqual(val) {
+    if (val == 12) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+console.log(testEqual(10));
+
+/************************************************
+ * Comparison with the Strict Equality Operator *
+ ************************************************/

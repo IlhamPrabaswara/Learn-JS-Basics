@@ -135,3 +135,11 @@ console.log(testEqual(10));
 /************************************************
  * Comparison with the Strict Equality Operator *
  ************************************************/
+function testStrict(val) {
+    if (val === 10) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+console.log(testStrict(10));

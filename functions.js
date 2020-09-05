@@ -387,3 +387,76 @@ function switchOfStuff(val) {
 }
 
 console.log(switchOfStuff(2));
+
+/***************************************************
+ * Multiple Identical Options in Switch Statements *
+ ***************************************************/
+function sequentialSizes(val) {
+    var answer = "";
+    switch(val) {
+        case 1:
+        case 2:
+        case 3:
+            answer = "Low";
+            break;
+        case 4:
+        case 5:
+        case 6:
+            answer = "Mid";
+            break;
+        case 7:
+        case 8:
+        case 9:
+            answer = "High";
+            break
+    }
+    return answer;
+}
+
+console.log(sequentialSizes(1));
+
+/****************************************
+ * Replacing If Else Chains with Switch *
+ ****************************************/
+function chainToSwitch(val) {
+    var answer = "";
+
+    switch(val) {
+        case "Bob":
+            answer = "Marley";
+            break;
+        case 42:
+            answer = "The Answer";
+            break;
+        case 1:
+            answer = "There is no #1";
+            break;
+        case 99:
+            answer = "Missed me by this much!";
+            break;
+        case 7:
+            answer = "Ate nine";
+            break;
+    }
+}
+
+/******************************************
+ * Returning Boolean Values from Function *
+ ******************************************/
+function isLess(a, b) {
+    return a < b;
+}
+
+console.log(isLess(10, 15));
+
+/******************************************
+ * Returning Early Pattern from Functions *
+ ******************************************/
+function abTest(a, b) {
+    if (a < 0 || b < 0) {
+        return undefined;
+    }
+    return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+console.log(abTest(-1, 0));

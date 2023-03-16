@@ -2,24 +2,28 @@
  * Adding Numbers *
  ******************/
 var sum = 10 + 10;
+console.log("Adding Numbers")
 console.log(sum);
 
 /***********************
  * Subtracting Numbers *
  ***********************/
 var difference = 45 - 12;
+console.log("Subtracting Numbers")
 console.log(difference);
 
 /***********************
  * Multiplying Numbers *
  ***********************/
 var product = 8 * 10;
+console.log("Multiplying Numbers")
 console.log(product);
 
 /********************
  * Dividing Numbers *
  ********************/
 var quotient = 66 / 33;
+console.log("Dividing Numbers")
 console.log(quotient);
 
 /************************
@@ -27,6 +31,7 @@ console.log(quotient);
  ************************/
 var increment = 5;
 increment++;
+console.log("Incrementing Numbers")
 console.log(increment);
 
 /************************
@@ -34,24 +39,28 @@ console.log(increment);
  ************************/
 var decrement = 5;
 decrement--;
+console.log("Decrementing Numbers")
 console.log(decrement);
 
 /*******************
  * Decimal Numbers *
  *******************/
 var myDecimal = 5.5;
+console.log("Decimal Numbers")
 console.log(myDecimal);
 
 /*********************
  * Multiply Decimals *
  *********************/
 var decimalProduct = 2.5 * 2.0;
+console.log("Multiply Decimals")
 console.log(decimalProduct);
 
 /*******************
  * Divide Decimals *
  *******************/
 var decimalQuotient = 4.4 / 2.0;
+console.log("Divide Decimals")
 console.log(decimalQuotient);
 
 /***********************
@@ -59,6 +68,8 @@ console.log(decimalQuotient);
  ***********************/
 var remainder;
 remainder = 11 % 3;
+console.log("Finding a Remainder")
+console.log(remainder);
 
 /***********************************************
  * Compound Assignment with Augmented Addition *
@@ -71,6 +82,7 @@ a += 12;
 b += 9;
 c += 7;
 
+console.log("Compound Assignment with Augmented Addition")
 console.log(a);
 console.log(b);
 console.log(c);
@@ -86,6 +98,7 @@ d -= 12;
 e -= 9;
 f -= 7;
 
+console.log("Compound Assignment with Augmented Substraction")
 console.log(d);
 console.log(e);
 console.log(f);
@@ -101,6 +114,7 @@ g *= 12;
 h *= 9;
 i *= 7;
 
+console.log("Compound Assignment with Augmented Multiplication")
 console.log(g);
 console.log(h);
 console.log(i);
@@ -116,6 +130,7 @@ j /= 2;
 k /= 3;
 l /= 16;
 
+console.log("Compound Assignment with Augmented Division")
 console.log(j);
 console.log(k);
 console.log(l);
